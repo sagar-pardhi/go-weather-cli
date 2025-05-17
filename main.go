@@ -177,7 +177,6 @@ func main() {
 			fmt.Println("Error getting geocoding data:", err)
 			return
 		}
-		// fmt.Println("Latitude:", lat, "Longitude:", lon)
 
 		getWeatherData(lat, lon, city)
 
